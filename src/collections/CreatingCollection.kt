@@ -23,6 +23,6 @@ fun main(args: Array<String>) {
     println(resultList3)
 
     val theList4 = listOf(1, 2, 3, 4, 5, 6)
-    val resultMap = theList4.groupBy{ it % 3}
+    val resultMap = theList4.groupBy { it % 3 }
     println(resultMap)
 }

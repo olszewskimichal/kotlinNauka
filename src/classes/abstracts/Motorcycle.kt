@@ -1,9 +1,11 @@
 package classes.abstracts
 
-class Motorcycle(name: String,
-                 color: String,
-                 weight: Double,
-                 override var maxSpeed: Double): Vehicle(name, color, weight) {
+class Motorcycle(
+    name: String,
+    color: String,
+    weight: Double,
+    override var maxSpeed: Double
+) : Vehicle(name, color, weight) {
 
     override fun start() {
         // Code to Start the Motorcycle

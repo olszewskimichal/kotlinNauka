@@ -1,7 +1,9 @@
 package classes
 
-class Student (val rollNumber: Int,
-               val name: String)
+class Student(
+    val rollNumber: Int,
+    val name: String
+)
 
 class PersonExample {
     companion object {

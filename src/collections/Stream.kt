@@ -23,7 +23,7 @@ fun main(args: Array<String>) {
 
     println(zip)
 
-    val squares = listOf(1, 2, 3, 4,5)
+    val squares = listOf(1, 2, 3, 4, 5)
         .associate { n -> n to n * n }
     println(squares)
 
