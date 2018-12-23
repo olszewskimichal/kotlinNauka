@@ -25,4 +25,7 @@ fun main(args: Array<String>) {
     val theList4 = listOf(1, 2, 3, 4, 5, 6)
     val resultMap = theList4.groupBy { it % 3 }
     println(resultMap)
+
+    val map = mapOf(Pair(1, "Item 1"), Pair(2, "Item 2"), Pair(3, "Item 3"))
+    println(map)
 }
