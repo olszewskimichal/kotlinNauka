@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
         print("$value ")
     }
 
-    var primeNumbers = intArrayOf(2, 3, 5, 7, 11)
+    val primeNumbers = intArrayOf(2, 3, 5, 7, 11)
 
     for (number in primeNumbers) {
         print("$number ")
@@ -24,4 +24,15 @@ fun main(args: Array<String>) {
     for (index in primeNumbers.indices) {
         println("PrimeNumber(${index + 1}): ${primeNumbers[index]}")
     }
+
+    repeat(10) { i ->
+        println("This line will be printed 10 times")
+        println("We are on the ${i + 1}. loop iteration")
+    }
+    val map = hashMapOf(1 to "foo", 2 to "bar", 3 to "baz")
+    for ((key, value) in map) {
+        println("Map[$key] = $value")
+    }
+
+
 }
