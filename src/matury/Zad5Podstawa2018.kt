@@ -46,7 +46,7 @@ fun findPalindromeNumbers(numbers: List<Int>): MutableList<Int>? {
 fun theBiggestOddNumber(numbers: List<Int>) {
     val max = numbers.stream()
         .filter { it % 2 == 0 }
-        .max(Comparator { o1, o2 -> o1.compareTo(o2) })
+        .max { o1, o2 -> o1.compareTo(o2) }
         .orElse(-1)
     println("Najwieksza liczba parzysta to $max")
 }
