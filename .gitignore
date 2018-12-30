@@ -24,7 +24,3 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-
-petClinic/out/
-petClinic/gradlew*
-petClinic/gradle/*
